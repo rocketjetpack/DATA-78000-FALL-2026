@@ -217,5 +217,15 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 topic_model/gc_dissertations_combined_v2.csv
+topic_model/1_topic_model_gc_diss/data/gc_dissertations_combined_v2.csv
+topic_model/**/gc_dissertations_combined_v2.csv
+# CUNY GC dissertation data is restricted (not on the open web) and must never be
+# committed. A bare filename pattern (no leading slash) matches at any depth, in
+# any current or future folder, on top of the specific paths above.
+gc_dissertations_combined_v2.csv
+hw_venv/
 .DS_Store
 .vscode/
+
+2_topic_model_sna_gc_diss/output
+2_topic_model_sna_gc_diss/output/*
